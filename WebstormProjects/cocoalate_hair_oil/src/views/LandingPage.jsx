@@ -31,7 +31,7 @@ const LandingPage= ()=> {
 
     return(
         <div className="whole-frame">
-            <div className="home-frame">
+            <div className="nav-frame">
                 <div className="logo-frame">
                     <img src={LogoImage}/>
                 </div>
@@ -45,7 +45,7 @@ const LandingPage= ()=> {
                     </ul>
                 </div>
             </div>
-            <div></div>
+            <div className="home-page-frame"></div>
             <div></div>
             <div></div>
             <div></div>
