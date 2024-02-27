@@ -1,3 +1,5 @@
+import "../styles/LandingPage.css"
+import LogoImage from "../assets/image/svg/Logo.svg"
 const LandingPage= ()=> {
     const responsive = {
         desktop: {
@@ -29,7 +31,20 @@ const LandingPage= ()=> {
 
     return(
         <div className="whole-frame">
-            <div></div>
+            <div className="home-frame">
+                <div className="logo-frame">
+                    <img src={LogoImage}/>
+                </div>
+                <div>
+                    <ul className="nav-link">
+                        {links.map((link) => (
+                            <li key={link.name} className="nav-link-detail">
+                                <a href={link.link}>{link.name}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
             <div></div>
             <div></div>
             <div></div>
@@ -40,3 +55,5 @@ const LandingPage= ()=> {
         </div>
     )
 }
+
+export default LandingPage;

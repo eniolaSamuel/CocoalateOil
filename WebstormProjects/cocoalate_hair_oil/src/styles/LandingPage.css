@@ -2,3 +2,20 @@
     background-color: #c5a081;
     width: 100%;
 }
+
+.logo-frame{
+    margin-left: 45px;
+    width: 120px;
+    margin-top: 18px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-detail{
+    margin-left: 10px;
+    color: #2e210f;
+
+}
