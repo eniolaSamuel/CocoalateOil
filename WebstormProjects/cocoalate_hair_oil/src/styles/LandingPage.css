@@ -1,10 +1,11 @@
 .whole-frame{
-    background-color: #CAA996;
+    background-color: whitesmoke;
     width: 100%;
 }
 
 .nav-frame{
     display: flex;
+    border: 1px solid #CAA996;
 }
 .logo-frame img{
     margin-left: 45px;
@@ -86,8 +87,50 @@
 }
 
 .home-page-frame{
-    background-image: linear-gradient(to bottom, #CAA996, #f4e1d1),url('../assets/image/svg/home-image.svg');
-    height: 400px;
-    background-size: cover;
+    background-image: linear-gradient(to bottom, whitesmoke, #f4e1d1);
+    height: 300px;
+    display: flex;
+    margin-top: 10px;
+}
 
+.header-text-frame{
+    width: 50%;
+    margin-left: 90px;
+}
+
+.header-text-frame h1{
+    width: 700px;
+    height: 24px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111014;
+    margin-bottom: 100px;
+}
+
+.header-text-frame p{
+    width: 650px;
+    height: 14px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111014;
+}
+
+.home-page-image{
+    height: 30px;
+    width: 530px;
+    align-content: center;
+}
+
+.home-page-image img{
+    height: 250px;
+    width: 450px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 25px;
 }
