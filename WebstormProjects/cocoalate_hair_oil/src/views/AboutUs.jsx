@@ -23,6 +23,7 @@ export const AboutUs = () => {
                         she finally discovered a formula that not only stimulated hair growth
                         but also nourished and strengthened her strands from within.
                     <br/>
+
                         Now, having improved the formula over the course of the last two years;
                         she's on a mission to share her discovery with the world.
                         Cocoalate Crown isn't just about selling products –

@@ -25,3 +25,26 @@
 .our-story-frame{
     margin-left: 15px;
 }
+
+.our-story-frame h1{
+    width: 200px;
+    height: 24px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111014;
+    margin-bottom: 50px;
+}
+
+.our-story-frame p{
+    width: 650px;
+    height: 14px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111014;
+}
