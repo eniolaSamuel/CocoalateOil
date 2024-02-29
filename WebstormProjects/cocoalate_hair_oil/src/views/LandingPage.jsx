@@ -2,6 +2,11 @@ import "../styles/LandingPage.css"
 import LogoImage from "../assets/image/svg/Logo.svg"
 import HomePageImage from "../assets/image/svg/home-image.svg"
 import AestheticOil from "../assets/image/svg/aesthetic-oil.svg"
+import {AboutUs} from "./AboutUs";
+import React from "react";
+import Lottie from 'lottie-react'
+import OilDrop from "../assets/image/OilDrop.json"
+
 const LandingPage= ()=> {
     const responsive = {
         desktop: {
@@ -54,10 +59,10 @@ const LandingPage= ()=> {
                         Cocoalate Crown Hair Growth Oil. Unleash Natural Beauty, One Drop at a Time!</p>
                 </div>
                 <div className="home-page-image">
-                    <img src={AestheticOil}/>
+                    <Lottie className="home-page-image-lottie" animationData={OilDrop} />
                 </div>
             </div>
-            <div></div>
+            <AboutUs />
             <div></div>
             <div></div>
             <div></div>

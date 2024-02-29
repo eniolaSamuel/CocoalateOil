@@ -1,0 +1,27 @@
+.about-us-frame{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #CEC6BE, whitesmoke);
+}
+.about-us-frame h1{
+    align-items: center;
+}
+
+.about-us-sub-frame{
+    width: 80%;
+    border: 3px solid #2E210F;
+    display: flex;
+    margin-left: 130px;
+    border-radius: 20px;
+
+}
+
+.about-us-header-frame{
+    height: 500px;
+    width: 1000px;
+}
+
+.our-story-frame{
+    margin-left: 15px;
+}
