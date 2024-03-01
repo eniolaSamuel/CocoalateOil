@@ -1,0 +1,82 @@
+.ingredients-main-frame{
+    background-color: #c8d1c8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sub-ingredient-frame{
+    width: 90%;
+    border: 3px solid #2E210F;
+    border-radius: 20px;
+    margin: auto;
+}
+.ingredients-main-frame h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #655033;
+    margin: auto;
+    padding: 20px;
+}
+
+.ingredients-main-frame hr{
+    height: 5px;
+    margin: auto;
+    background-color: #655033;
+}
+
+.ingredients-main-frame p{
+    width: 280px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: left;
+    color: #111014;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.ingredients-set{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+
+.Amala-frame, .Argan-frame,
+.Castor-frame, .Coconut-frame,
+.Eucalyptus-frame, .Fenugreek-frame,
+.Indigo-frame, .Jojoba-frame,
+.Lavender-frame, .Olive-frame,
+.Peppermint-frame, .Rosemary-frame,
+.Sunflower-frame, .TeaTree-frame{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Amala-frame img, .Argan-frame img,
+.Castor-frame img, .Coconut-frame img,
+.Eucalyptus-frame img, .Fenugreek-frame img,
+.Indigo-frame img, .Jojoba-frame img,
+.Lavender-frame img, .Olive-frame img,
+.Peppermint-frame img, .Rosemary-frame img,
+.Sunflower-frame img, .TeaTree-frame img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.Amala-frame p, .Argan-frame p,
+.Castor-frame p, .Coconut-frame p,
+.Eucalyptus-frame p, .Fenugreek-frame p,
+.Indigo-frame p, .Jojoba-frame p,
+.Lavender-frame p, .Olive-frame p,
+.Peppermint-frame p, .Rosemary-frame p,
+.Sunflower-frame p, .TeaTree-frame p{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: left;
+    color: #111014;
+}

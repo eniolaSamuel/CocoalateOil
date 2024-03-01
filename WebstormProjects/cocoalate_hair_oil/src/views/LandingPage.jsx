@@ -8,6 +8,7 @@ import Lottie from 'lottie-react'
 import OilDrop from "../assets/image/OilDrop.json"
 import GirlHair from "../assets/image/svg/afro-textured-hair.svg"
 import Shadow from "../assets/image/svg/shadow.svg"
+import {Ingredients} from "./Ingredients";
 
 const LandingPage= ()=> {
     const responsive = {
@@ -31,7 +32,7 @@ const LandingPage= ()=> {
     let links = [
         { name: "Home", link: "/" },
         { name: "About Us", link: "/aboutUsPage" },
-        { name: "Ingredients", link: "/" },
+        { name: "Ingredients", link: "/ingredients" },
         { name: "Social Proofs", link: "/" },
         { name: "Benefits", link: "/" },
         { name: "Directions", link: "/" },
@@ -65,7 +66,7 @@ const LandingPage= ()=> {
                 </div>
             </div>
             <AboutUs />
-            <div></div>
+            <Ingredients />
             <div></div>
             <div></div>
             <div></div>
