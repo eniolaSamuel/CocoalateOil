@@ -6,6 +6,7 @@ import {AmlaOil} from "./views/IngredientBreakdown/AmlaOil";
 import {ArganOil} from "./views/IngredientBreakdown/ArganOil";
 import {CastorOil} from "./views/IngredientBreakdown/CastorOil";
 import {CoconutOil} from "./views/IngredientBreakdown/CoconutOil";
+import {EucalyptusOil} from "./views/IngredientBreakdown/EucalyptusOil";
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/aboutUsPage" element={<AboutUs />} />
             <Route path="/ingredients" element={<Ingredients />} />
-            <Route path="/amlaBenefits" element={<AmlaOil />} />
-            <Route path="/arganBenefits" element={<ArganOil />} />
-            <Route path="/castorBenefits" element={<CastorOil />} />
-            <Route path="/coconutOilBenefits" element={<CoconutOil />} />
+            <Route path="/ingredients/amlaBenefits" element={<AmlaOil />} />
+            <Route path="/ingredients/arganBenefits" element={<ArganOil />} />
+            <Route path="/ingredients/castorBenefits" element={<CastorOil />} />
+            <Route path="/ingredients/coconutOilBenefits" element={<CoconutOil />} />
+            <Route path="/ingredients/eucalyptusOilBenefits" element={<EucalyptusOil />} />
           </Routes>
         </BrowserRouter>
       </>

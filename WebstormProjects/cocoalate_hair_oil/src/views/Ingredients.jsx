@@ -26,28 +26,30 @@ export const Ingredients = () => {
                 <p>***click on images for more information***</p>
                 <div className="ingredients-set">
                     <div className="Amala-frame">
-                        <a href={"/amlaBenefits"}><img src={Amla} alt={Amla}/></a>
+                        <a href={"/ingredients/amlaBenefits"}><img src={Amla} alt={Amla}/></a>
                         <p>Amla Oil</p>
                     </div>
 
                     <div className="Argan-frame">
-                        <a href={"/arganBenefits"}><img src={Argan} alt={Argan}/></a>
+                        <a href={"/ingredients/arganBenefits"}><img src={Argan} alt={Argan}/></a>
                         <p>Argan Oil</p>
                     </div>
 
                     <div className="Castor-frame">
-                        <a href={"/castorBenefits"}><img src={Castor} alt={Castor}/></a>
+                        <a href={"/ingredients/castorBenefits"}><img src={Castor} alt={Castor}/></a>
                         <p>Black Castor Oil</p>
                     </div>
 
                     <div className="Coconut-frame">
-                        <a href={"/coconutOilBenefits"}><img src={Coconut} alt={Coconut}/></a>
+                        <a href={"/ingredients/coconutOilBenefits"}><img src={Coconut} alt={Coconut}/></a>
                         <p>Coconut Oil</p>
                     </div>
+
                     <div className="Eucalyptus-frame">
-                        <a href={"/"}><img src={Eucalyptus} alt={Eucalyptus}/></a>
+                        <a href={"/ingredients/eucalyptusOilBenefits"}><img src={Eucalyptus} alt={Eucalyptus}/></a>
                         <p>Eucalyptus Oil</p>
                     </div>
+
                     <div className="Fenugreek-frame">
                         <a href={"/"}><img src={Fenugreek} alt={Fenugreek}/></a>
                         <p>Fenugreek Oil</p>
