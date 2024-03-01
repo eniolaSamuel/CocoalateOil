@@ -1,7 +1,7 @@
 import React from "react";
-import Argan from "../assets/image/svg/argan.svg"
-import "../styles/ArganOil.css"
-import Amla from "../assets/image/svg/amla.svg";
+import Argan from "../../assets/image/svg/argan.svg"
+import "../../styles/IngredientBreakdown/ArganOil.css"
+import Amla from "../../assets/image/svg/amla.svg";
 export const ArganOil = () =>{
     return(
         <div className="argan-frame">

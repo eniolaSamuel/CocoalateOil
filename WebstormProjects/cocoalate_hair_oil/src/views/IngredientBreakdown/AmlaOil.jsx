@@ -1,6 +1,6 @@
 import React from "react";
-import Amla from "../assets/image/svg/amla.svg"
-import "../styles/AmlaOil.css"
+import Amla from "../../assets/image/svg/amla.svg"
+import "../../styles/IngredientBreakdown/AmlaOil.css"
 export const AmlaOil = () =>{
     return(
         <div className="amla-frame">

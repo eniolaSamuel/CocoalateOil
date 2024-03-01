@@ -36,11 +36,12 @@ export const Ingredients = () => {
                     </div>
 
                     <div className="Castor-frame">
-                        <a href={"/"}><img src={Castor} alt={Castor}/></a>
+                        <a href={"/castorBenefits"}><img src={Castor} alt={Castor}/></a>
                         <p>Black Castor Oil</p>
                     </div>
+
                     <div className="Coconut-frame">
-                        <a href={"/"}><img src={Coconut} alt={Coconut}/></a>
+                        <a href={"/coconutOilBenefits"}><img src={Coconut} alt={Coconut}/></a>
                         <p>Coconut Oil</p>
                     </div>
                     <div className="Eucalyptus-frame">
