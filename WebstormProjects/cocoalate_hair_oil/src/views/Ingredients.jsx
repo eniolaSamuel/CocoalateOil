@@ -51,9 +51,10 @@ export const Ingredients = () => {
                     </div>
 
                     <div className="Fenugreek-frame">
-                        <a href={"/"}><img src={Fenugreek} alt={Fenugreek}/></a>
+                        <a href={"/ingredients/fenugreekOilBenefits"}><img src={Fenugreek} alt={Fenugreek}/></a>
                         <p>Fenugreek Oil</p>
                     </div>
+
                     <div className="Indigo-frame">
                         <a href={"/"}><img src={Indigo} alt={Indigo}/></a>
                         <p>Indigo Powder</p>
