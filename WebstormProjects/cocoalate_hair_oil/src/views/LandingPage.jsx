@@ -6,6 +6,8 @@ import {AboutUs} from "./AboutUs";
 import React from "react";
 import Lottie from 'lottie-react'
 import OilDrop from "../assets/image/OilDrop.json"
+import GirlHair from "../assets/image/svg/afro-textured-hair.svg"
+import Shadow from "../assets/image/svg/shadow.svg"
 
 const LandingPage= ()=> {
     const responsive = {
@@ -28,7 +30,7 @@ const LandingPage= ()=> {
 
     let links = [
         { name: "Home", link: "/" },
-        { name: "About Us", link: "/" },
+        { name: "About Us", link: "/aboutUsPage" },
         { name: "Ingredients", link: "/" },
         { name: "Social Proofs", link: "/" },
         { name: "Benefits", link: "/" },
@@ -59,7 +61,7 @@ const LandingPage= ()=> {
                         Cocoalate Crown Hair Growth Oil. Unleash Natural Beauty, One Drop at a Time!</p>
                 </div>
                 <div className="home-page-image">
-                    <Lottie className="home-page-image-lottie" animationData={OilDrop} />
+                    <Lottie className="home-page-image-lottie"  animationData={OilDrop} />
                 </div>
             </div>
             <AboutUs />

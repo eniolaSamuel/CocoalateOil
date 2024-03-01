@@ -88,14 +88,15 @@
 
 .home-page-frame{
     background-image: linear-gradient(to bottom, whitesmoke, #CEC6BE);
-    height: 300px;
-    display: flex;
-    margin-top: 10px;
+    height: 600px;
+    /*display: flex;*/
+
 }
 
 .header-text-frame{
-    width: 50%;
-    margin-left: 140px;
+    width: 47%;
+    margin: auto;
+
 }
 
 .header-text-frame h1{
@@ -105,9 +106,9 @@
     font-weight: 600;
     line-height: 60px;
     letter-spacing: 0em;
-    text-align: left;
-    color: #111014;
+    color: #2E210F;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .header-text-frame p{
@@ -117,19 +118,20 @@
     font-weight: 200;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: left;
-    color: #111014;
+    text-align: center;
+    color: #2E210F;
+    margin-bottom: 20px;
 }
 
 .home-page-image{
-    height: 30px;
     width: 530px;
     align-content: center;
+    margin: auto;
 }
 
 .home-page-image-lottie{
-    height: 280px;
-    width: 250px;
-    margin-left: 140px;
-    margin-top: 20px;
+    height: 380px;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
 }

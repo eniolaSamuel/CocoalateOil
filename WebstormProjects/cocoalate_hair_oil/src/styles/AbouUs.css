@@ -1,53 +1,71 @@
 .about-us-frame{
     width: 100%;
-    align-items: center;
-    justify-content: center;
     background-image: linear-gradient(to bottom, #CEC6BE, whitesmoke);
+    margin-top: -20px;
 }
 .about-us-frame h1{
     align-items: center;
 }
 
 .about-us-sub-frame{
-    width: 80%;
+    width: 90%;
     border: 3px solid #2E210F;
-    display: flex;
-    margin-left: 130px;
     border-radius: 20px;
-
+    margin: auto;
 }
 
-.about-us-header-frame{
+.about-us-header-frame hr{
+    height: 5px;
+    background-color: #655033;
+}
+
+.about-us-header-frame h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #655033;
+}
+
+
+
+.our-storyy-lottie-frame{
     height: 500px;
-    width: 1000px;
+    width: 600px;
+    margin-left: 40px;
 }
 
-.our-story-frame{
+.about-us-lottie-img{
+    height: 500px;
+}
+
+.story-frame, .philosophy-frame{
+    display: flex;
+}
+.our-story-frame, .our-philosophy-frame, .join-us-frame{
     margin-left: 15px;
 }
 
-.our-story-frame h1{
-    width: 200px;
+.our-story-frame h1, .our-philosophy-frame h1, .join-us-frame h1{
     height: 24px;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
     color: #111014;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
-.our-story-frame p{
+.our-story-frame p, .our-philosophy-frame p, .join-us-frame p{
     width: 650px;
-    height: 14px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: left;
     color: #111014;
+
 }
-.our-story-frame br{
+.our-story-frame br, .our-philosophy-frame br{
     margin-top: 10px;
 }
