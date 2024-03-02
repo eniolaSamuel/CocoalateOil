@@ -1,4 +1,4 @@
-.peppermint-frame{
+.rosemary-frame{
     width: 90%;
     border: 3px solid #596D22;
     border-radius: 20px;
@@ -6,7 +6,7 @@
     padding:70px;
 }
 
-.peppermint-frame h1{
+.rosemary-frame h1{
     font-size: 30px;
     font-weight: 600;
     line-height: 30px;
@@ -14,7 +14,7 @@
     color: #596D22;
 }
 
-.peppermint-frame span{
+.rosemary-frame span{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -22,12 +22,12 @@
     color: #655033;
 }
 
-.peppermint-frame hr{
+.rosemary-frame hr{
     height: 5px;
     background-color: #655033;
 }
 
-.peppermint-frame p{
+.rosemary-frame p{
     font-size: 20px;
     font-weight: 200;
     line-height: 30px;
@@ -35,11 +35,11 @@
     color: #111014;
 }
 
-.peppermint-frame br{
+.rosemary-frame br{
     margin-bottom: 40px;
 }
 
-.peppermint-frame img{
+.rosemary-frame img{
     border-radius: 50%;
     width: 200px;
     height: 200px;

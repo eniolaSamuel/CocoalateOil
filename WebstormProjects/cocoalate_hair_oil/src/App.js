@@ -12,6 +12,9 @@ import {IndigoPowder} from "./views/IngredientBreakdown/IndigoPowder";
 import {JojobaOil} from "./views/IngredientBreakdown/JojobaOil";
 import {LavenderOil} from "./views/IngredientBreakdown/LavenderOil";
 import {OliveOil} from "./views/IngredientBreakdown/OliveOil";
+import {PeppermintOil} from "./views/IngredientBreakdown/PeppermintOil";
+import {RosemaryOil} from "./views/IngredientBreakdown/RosemaryOil";
+import {SunflowerOil} from "./views/IngredientBreakdown/SunflowerOil";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
             <Route path="/ingredients/jojobaOilBenefits" element={<JojobaOil />} />
             <Route path="/ingredients/lavenderOilBenefits" element={<LavenderOil />} />
             <Route path="/ingredients/oliveOilBenefits" element={<OliveOil />} />
+            <Route path="/ingredients/peppermintOilBenefits" element={<PeppermintOil />} />
+            <Route path="/ingredients/rosemaryOilBenefits" element={<RosemaryOil />} />
+            <Route path="/ingredients/sunflowerOilBenefits" element={<SunflowerOil />} />
           </Routes>
         </BrowserRouter>
       </>

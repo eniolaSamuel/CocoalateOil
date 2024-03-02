@@ -78,17 +78,20 @@ export const Ingredients = () => {
                     </div>
 
                     <div className="Peppermint-frame">
-                        <a href={"/"}><img src={Peppermint} alt={Peppermint}/></a>
+                        <a href={"/ingredients/peppermintOilBenefits"}><img src={Peppermint} alt={Peppermint}/></a>
                         <p>Peppermint Oil</p>
                     </div>
+
                     <div className="Rosemary-frame">
-                        <a href={"/"}><img src={Rosemary} alt={Rosemary}/></a>
+                        <a href={"/ingredients/rosemaryOilBenefits"}><img src={Rosemary} alt={Rosemary}/></a>
                         <p>Rosemary E. Oil</p>
                     </div>
+
                     <div className="Sunflower-frame">
-                        <a href={"/"}><img src={Sunflower} alt={Sunflower}/></a>
+                        <a href={"/ingredients/sunflowerOilBenefits"}><img src={Sunflower} alt={Sunflower}/></a>
                         <p>Sunflower Oil</p>
                     </div>
+
                     <div className="TeaTree-frame">
                         <a href={"/"}><img src={TeaTree} alt={TeaTree}/></a>
                         <p>Tea Tree Oil</p>
