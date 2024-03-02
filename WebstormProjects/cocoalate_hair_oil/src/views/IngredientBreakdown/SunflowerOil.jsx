@@ -1,6 +1,6 @@
 import React from "react";
 import Sunflower from "../../assets/image/svg/sunflower.svg"
-import "../../styles/IngredientBreakdown/SunflowerOil.css.css"
+import "../../styles/IngredientBreakdown/SunflowerOil.css"
 export const SunflowerOil = () =>{
     return(
         <div className="sunflower-frame">

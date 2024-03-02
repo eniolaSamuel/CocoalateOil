@@ -15,6 +15,7 @@ import {OliveOil} from "./views/IngredientBreakdown/OliveOil";
 import {PeppermintOil} from "./views/IngredientBreakdown/PeppermintOil";
 import {RosemaryOil} from "./views/IngredientBreakdown/RosemaryOil";
 import {SunflowerOil} from "./views/IngredientBreakdown/SunflowerOil";
+import {TeatreeOil} from "./views/IngredientBreakdown/TeatreeOil";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/ingredients/peppermintOilBenefits" element={<PeppermintOil />} />
             <Route path="/ingredients/rosemaryOilBenefits" element={<RosemaryOil />} />
             <Route path="/ingredients/sunflowerOilBenefits" element={<SunflowerOil />} />
+            <Route path="/ingredients/teatreeOilBenefits" element={<TeatreeOil />} />
           </Routes>
         </BrowserRouter>
       </>

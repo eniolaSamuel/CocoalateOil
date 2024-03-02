@@ -93,7 +93,7 @@ export const Ingredients = () => {
                     </div>
 
                     <div className="TeaTree-frame">
-                        <a href={"/"}><img src={TeaTree} alt={TeaTree}/></a>
+                        <a href={"/ingredients/teatreeOilBenefits"}><img src={TeaTree} alt={TeaTree}/></a>
                         <p>Tea Tree Oil</p>
                     </div>
                 </div>
