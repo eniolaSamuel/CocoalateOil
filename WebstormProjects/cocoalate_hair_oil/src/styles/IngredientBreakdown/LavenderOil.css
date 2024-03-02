@@ -1,0 +1,48 @@
+.lavender-frame{
+    width: 90%;
+    border: 3px solid #596D22;
+    border-radius: 20px;
+    background-color: #DCE5BE;
+    padding:70px;
+}
+
+.lavender-frame h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #596D22;
+}
+
+.lavender-frame span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #655033;
+}
+
+.lavender-frame hr{
+    height: 5px;
+    background-color: #655033;
+}
+
+.lavender-frame p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: left;
+    color: #111014;
+}
+
+.lavender-frame br{
+    margin-bottom: 40px;
+}
+
+.lavender-frame img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    margin-left: 500px;
+}

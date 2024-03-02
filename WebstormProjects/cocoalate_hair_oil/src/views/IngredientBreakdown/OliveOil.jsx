@@ -1,9 +1,9 @@
 import React from "react";
-import Lavender from "../../assets/image/svg/lavender.svg"
-import "../../styles/IngredientBreakdown/LavenderOil.css"
-export const LavenderOil = () =>{
+import Olive from "../../assets/image/svg/olive.svg"
+import "../../styles/IngredientBreakdown/OliveOil.css"
+export const OliveOil = () =>{
     return(
-        <div className="lavender-frame">
+        <div className="olive-frame">
 
             <img src={Lavender} alt={Lavender}/>
 
