@@ -5,36 +5,36 @@ export const OliveOil = () =>{
     return(
         <div className="olive-frame">
 
-            <img src={Lavender} alt={Lavender}/>
+            <img src={Olive} alt={Olive}/>
 
-            <h1>BENEFITS OF LAVENDER OIL TO THE HAIR</h1>
+            <h1>BENEFITS OF OLIVE OIL TO THE HAIR</h1>
             <hr/>
             <p>
-                Lavender oil offers several benefits for hair health, making it a popular ingredient in hair care products and treatments. Here are some of the key advantages of using lavender oil for hair:
+                Olive oil, extracted from the fruit of the olive tree, offers numerous benefits for hair health due to its rich composition of vitamins, antioxidants, and fatty acids. Here are some of the key advantages of using olive oil for hair:
                 <br/>
 
-                <span>1. Promotes Hair Growth:</span> Lavender oil has been shown to promote hair growth by stimulating the hair follicles. It improves blood circulation to the scalp, which can help nourish the hair follicles and encourage new hair growth.
+                <span>1. Deep Conditioning:</span> Olive oil is an excellent natural conditioner that deeply moisturizes and nourishes the hair strands. It penetrates the hair shaft, providing hydration and leaving the hair soft, smooth, and manageable.
                 <br/>
 
-                <span>2. Reduces Hair Loss:</span>  By strengthening the hair follicles and promoting blood circulation to the scalp, lavender oil can help reduce hair loss and breakage. It strengthens the hair shaft, making it less prone to damage and breakage.
+                <span>2. Prevents Hair Damage:</span> The antioxidants present in olive oil help protect the hair from damage caused by free radicals and environmental stressors such as UV radiation and pollution. Regular use of olive oil can help strengthen the hair, reducing breakage and split ends.
                 <br/>
 
-                <span>3. Soothes Scalp Irritation:</span> Lavender oil has anti-inflammatory properties that can help soothe scalp irritation and reduce itching and redness. It can be beneficial for addressing scalp conditions such as dandruff, eczema, and psoriasis.
+                <span>3. Stimulates Hair Growth:</span> Olive oil contains nutrients like vitamin E and omega-3 fatty acids, which promote healthy hair growth by nourishing the scalp and hair follicles. Massaging olive oil into the scalp improves blood circulation, stimulating hair growth.
                 <br/>
 
-                <span>4. Controls Dandruff:</span> Lavender oil has antimicrobial properties that can help control dandruff-causing bacteria and fungi. Regular use of lavender oil on the scalp can help reduce dandruff and promote a healthier scalp environment.
+                <span>4. Adds Shine and Luster:</span> Olive oil imparts a natural shine and luster to the hair, making it look healthy and vibrant. It smooths the hair cuticle, reducing frizz and flyaways, and enhancing the overall appearance of the hair.
                 <br/>
 
-                <span>5. Adds Shine:</span> Lavender oil can impart a natural shine and luster to the hair, making it look healthy and vibrant. It smooths the hair cuticle, reducing frizz and flyaways, and enhancing the overall appearance of the hair.
+                <span>5. Tames Frizz and Flyaways:</span> Olive oil has emollient properties that help smooth the hair cuticle and control frizz and flyaways. It can be used as a leave-in treatment or serum to keep the hair looking sleek and polished.
                 <br/>
 
-                <span>6. Calms the Mind:</span> Lavender oil has a calming and relaxing scent that can help reduce stress and anxiety. Incorporating lavender oil into your hair care routine can provide a soothing and therapeutic experience, promoting overall well-being.
+                <span>6. Soothes Scalp Irritation:</span> Olive oil has anti-inflammatory properties that can help soothe scalp irritation and reduce itching and redness. It can be beneficial for addressing scalp conditions such as dandruff, eczema, and psoriasis.
                 <br/>
 
-                <span>7. Improves Sleep Quality:</span> The relaxing aroma of lavender oil can help improve sleep quality and promote relaxation. Applying lavender oil to the scalp before bedtime can help create a calming atmosphere and promote a restful night's sleep.
+                <span>7. Protects Against Heat Damage:</span> Olive oil can act as a natural heat protectant when applied to the hair before heat styling. It forms a protective barrier on the hair shaft, shielding it from the damaging effects of heat tools like blow dryers, straighteners, and curling irons.
                 <br/>
 
-                Overall, lavender oil is a versatile and beneficial natural remedy for promoting hair health and well-being. Whether used as a scalp treatment, hair mask, or incorporated into hair care products, lavender oil can help nourish, strengthen, and beautify the hair, leaving it looking and feeling its best.
+                Overall, olive oil is a versatile and effective natural remedy for promoting hair health and beauty. Whether used as a pre-shampoo treatment, conditioner, or styling product, olive oil can help improve the texture, strength, and appearance of the hair, leaving it looking and feeling its best.
             </p>
         </div>
     )

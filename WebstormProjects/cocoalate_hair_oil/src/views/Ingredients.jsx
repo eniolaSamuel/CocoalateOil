@@ -73,9 +73,10 @@ export const Ingredients = () => {
                     </div>
 
                     <div className="Olive-frame">
-                        <a href={"/"}><img src={Olive} alt={Olive}/></a>
+                        <a href={"/ingredients/oliveOilBenefits"}><img src={Olive} alt={Olive}/></a>
                         <p>Olive Oil</p>
                     </div>
+
                     <div className="Peppermint-frame">
                         <a href={"/"}><img src={Peppermint} alt={Peppermint}/></a>
                         <p>Peppermint Oil</p>
