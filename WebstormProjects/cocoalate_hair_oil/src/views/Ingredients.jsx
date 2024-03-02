@@ -63,9 +63,10 @@ export const Ingredients = () => {
 
                 <div className="ingredients-set">
                     <div className="Jojoba-frame">
-                        <a href={"/"}><img src={Jojoba} alt={Jojoba}/></a>
+                        <a href={"/ingredients/jojobaOilBenefits"}><img src={Jojoba} alt={Jojoba}/></a>
                         <p>Jojoba Oil</p>
                     </div>
+
                     <div className="Lavender-frame">
                         <a href={"/"}><img src={Lavender} alt={Lavender}/></a>
                         <p>Lavender E. Oil</p>
