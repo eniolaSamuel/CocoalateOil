@@ -9,6 +9,7 @@ import OilDrop from "../assets/image/OilDrop.json"
 import GirlHair from "../assets/image/svg/afro-textured-hair.svg"
 import Shadow from "../assets/image/svg/shadow.svg"
 import {Ingredients} from "./Ingredients";
+import {ContactUs} from "./ContactUs";
 
 const LandingPage= ()=> {
     const responsive = {
@@ -67,7 +68,7 @@ const LandingPage= ()=> {
             </div>
             <AboutUs />
             <Ingredients />
-            <div></div>
+            <ContactUs />
             <div></div>
             <div></div>
             <div></div>
