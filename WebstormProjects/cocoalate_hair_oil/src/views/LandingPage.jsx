@@ -1,13 +1,9 @@
 import "../styles/LandingPage.css"
 import LogoImage from "../assets/image/svg/Logo.svg"
-import HomePageImage from "../assets/image/svg/home-image.svg"
-import AestheticOil from "../assets/image/svg/aesthetic-oil.svg"
 import {AboutUs} from "./AboutUs";
 import React from "react";
 import Lottie from 'lottie-react'
 import OilDrop from "../assets/image/OilDrop.json"
-import GirlHair from "../assets/image/svg/afro-textured-hair.svg"
-import Shadow from "../assets/image/svg/shadow.svg"
 import {Ingredients} from "./Ingredients";
 import {ContactUs} from "./ContactUs";
 
