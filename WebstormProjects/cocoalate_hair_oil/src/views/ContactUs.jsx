@@ -30,6 +30,7 @@ export const ContactUs = () => {
                     </div>
                 </div>
             </div>
+            <div className="faq-frame"></div>
         </div>
     )
 }
