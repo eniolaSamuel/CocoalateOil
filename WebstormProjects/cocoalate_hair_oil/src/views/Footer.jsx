@@ -1,6 +1,6 @@
 export const Footer = () => {
     return(
-        <div>
+        <div className="footer_frame">
             <p>"CocoaLate Crown Hair Growth Elixirs: Nourishing Roots, Growing Dreams.</p>
 
             <p>Elevate your hair care routine with our premium blends infused with nature's finest ingredients.
