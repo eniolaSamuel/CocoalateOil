@@ -17,6 +17,7 @@ import {RosemaryOil} from "./views/IngredientBreakdown/RosemaryOil";
 import {SunflowerOil} from "./views/IngredientBreakdown/SunflowerOil";
 import {TeatreeOil} from "./views/IngredientBreakdown/TeatreeOil";
 import {ContactUs} from "./views/ContactUs";
+import {Footer} from "./views/Footer";
 
 function App() {
   return (
