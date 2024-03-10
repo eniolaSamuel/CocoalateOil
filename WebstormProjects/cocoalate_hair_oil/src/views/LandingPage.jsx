@@ -6,6 +6,7 @@ import Lottie from 'lottie-react'
 import OilDrop from "../assets/image/OilDrop.json"
 import {Ingredients} from "./Ingredients";
 import {ContactUs} from "./ContactUs";
+import {Footer} from "./Footer";
 
 const LandingPage= ()=> {
     const responsive = {
@@ -65,7 +66,7 @@ const LandingPage= ()=> {
             <AboutUs />
             <Ingredients />
             <ContactUs />
-            <div></div>
+            <Footer />
             <div></div>
             <div></div>
         </div>

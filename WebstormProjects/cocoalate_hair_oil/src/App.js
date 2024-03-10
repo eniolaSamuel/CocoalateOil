@@ -42,6 +42,7 @@ function App() {
             <Route path="/ingredients/sunflowerOilBenefits" element={<SunflowerOil />} />
             <Route path="/ingredients/teatreeOilBenefits" element={<TeatreeOil />} />
             <Route path="/contactUs" element={<ContactUs />} />
+            <Route path="/footer" element={<Footer />} />
           </Routes>
         </BrowserRouter>
       </>
