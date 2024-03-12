@@ -1,8 +1,7 @@
 .contact-main-frame{
     background-color: #ECE9E5;
-    height: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 600px;
+    padding-top: 100px;
 }
 .contact-sub-frame{
     border: 1px solid #2E210F;
