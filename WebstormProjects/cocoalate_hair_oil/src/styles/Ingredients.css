@@ -1,10 +1,10 @@
 .ingredients-main-frame{
-    background-color: #c8d1c8;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .sub-ingredient-frame{
+    background-color: #c8d1c8;
     width: 90%;
     border: 3px solid #2E210F;
     border-radius: 20px;
