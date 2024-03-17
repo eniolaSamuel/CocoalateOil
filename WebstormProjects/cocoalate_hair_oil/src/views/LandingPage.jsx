@@ -32,9 +32,8 @@ const LandingPage= ()=> {
         { name: "About Us", link: "/aboutUsPage" },
         { name: "Ingredients", link: "/ingredients" },
         { name: "Social Proofs", link: "/" },
-        { name: "Benefits", link: "/" },
         { name: "Directions", link: "/" },
-        { name: "Contact us", link: "/" },
+        { name: "Contact us", link: "/contactUs" },
     ];
 
     return(
