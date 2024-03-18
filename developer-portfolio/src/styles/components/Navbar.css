@@ -15,36 +15,40 @@
     margin-top: 10px;
 }
 
-.nav-links-frame li{
-    display: table-cell;
-    position: relative;
-    padding: 15px 0;
+.nav-link {
+    list-style: none;
+    padding: 55px;
+
+
 }
 
-.nav-links-frame a{
-    color: #9C9CA4;
-    text-transform: uppercase;
+.nav-link-detail {
+    display: inline-block;
+    margin-right: 30px; /* Adjust as needed */
+    margin-left: 20px;
+}
+
+.nav-link-detail a {
+    position: relative; /* Required for absolute positioning */
     text-decoration: none;
-    letter-spacing: 0.15em;
-    padding: 15px 20px;
-    position: relative;
+    color: #333; /* Adjust color as needed */
 }
 
-.nav-links-frame a:hover::after{
-    width: 70%;
-    background-color: gray;
-    opacity: 1;
-}
-
-.nav-links-frame a::after{
+.nav-link-detail a::after {
     content: "";
     position: absolute;
-    background-color: #00fffc;
+    left: 0;
+    bottom: -15px; /* Adjust to position the underline */
     width: 100%;
-    height: 3px;
-    bottom: -10px;
-    transition: 0.3s ease;
+    border-bottom: 1px solid transparent; /* Adjust thickness and color */
+    transition: border-bottom-color 0.3s ease; /* Optional: add transition effect */
 }
+
+.nav-link-detail a:hover::after {
+    border-bottom-color: #9C9CA4;;
+}
+
+
 
 
 
