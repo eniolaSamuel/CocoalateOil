@@ -1,94 +1,38 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import "../../styles/components/HomeScreen.css"
+import Eniola from "../../assets/svg/Eniola.svg"
 import Background from '../../assets/svg/binary-background.svg';
 
 const HomeScreen = () => {
     return (
         <>
-            <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-                <img
-                    src={Background}
-                    alt="binary code"
-                    className="w-full h-full sm:block hidden object-cover"
-                />
-            </div>
-            <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-                <img
-                    src={Background}
-                    alt="binary code"
-                    className="w-full h-full sm:hidden block object-cover"
-                />
-            </div>
-            <section
-                className="relative flex sm:flex-row flex-col w-full h-screen mx-auto
-        sm:bg-hero bg-hero-mobile overflow-hidden">
-                <div
-                    className={`absolute inset-0 sm:top-[250px] top-[150px] 
-          lg:top-[150px] xl:top-[250px]  
-          max-w-7xl mx-auto flex flex-row items-start
-          justify-between gap-3`}>
-                    <div className="flex flex-col justify-center items-center mt-5 ml-3">
-                        <div className="w-5 h-5 rounded-full bg-[#0a0a0a] sm:hidden" />
-                        <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden" />
-                    </div>
+            <div className="Home-main-frame">
+                <div className="text-centre-home">
+                    <h1>
+                        HI, I'M{' '}
+                        <br/>
+                        <span> ENIOLA SAMUEL</span>
+                    </h1>
+                    <p>
+                        Welcome to my portfolio!
+                        I specialize in both React.js frontend and Java backend development.
+                        With expertise in crafting seamless user experiences and building robust server-side solutions,
+                        I aim to deliver high-quality software solutions that meet user needs and business objectives.
+                        Explore my work to see examples of my skills in action.
 
-                    <div>
-                        <h1>
-                            Hi, I'm{' '}
-                            <span
-                                className="sm:text-battleGray sm:text-[90px]
-                text-eerieBlack text-[50px] font-mova
-                font-extrabold uppercase">
-                Shaquille
-              </span>
-                        </h1>
-                        <p>
-                            Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-                            consectetur adipisicing elit deleniti, voluptas.
-                        </p>
-                    </div>
-                    <div
-                        className="w-screen flex flex-col items-start
-            justify-center sm:-ml-[3rem] xxs:mt-4"></div>
+                        Let's build something amazing together!
 
-                    <div></div>
+                    </p>
                 </div>
 
-                <div
-                    className="absolute xs:bottom-10 bottom-32 w-full
-          flex justify-center items-center">
-                    <a href="#about">
-                        <div
-                            className="w-[35px] h-[64px] rounded-3xl border-4
-            border-french border-dim flex
-            justify-center items-start p-2">
-                            <motion.div
-                                animate={{
-                                    y: [0, 24, 0],
-                                }}
-                                transition={{
-                                    duration: 1.5,
-                                    repeat: Infinity,
-                                    repeatType: 'loop',
-                                }}
-                                className="w-3 h-3 rounded-full bg-taupe mb-1"
-                            />
-                        </div>
-                    </a>
-                </div>
-
-                {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-                <div>
+                <div className="Eniola-frame">
                     <img
-                        className="absolute bottom-0 ml-[50vw]
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
                         src={Eniola}
                         alt="eniola"
                     />
                 </div>
-            </section>
+            </div>
         </>
     );
 };
