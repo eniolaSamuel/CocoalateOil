@@ -1,50 +1,75 @@
 .Home-main-frame{
-    background-image:
-            linear-gradient(to right, rgba(158, 156, 156, 0.55), rgb(22, 23, 23)),
-            url('../../assets/svg/binary-background.svg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
     display: flex;
 }
-
 .text-centre-home{
-    width: 47%;
-    margin: auto;
+    width: 60vw;
+    height: 99vh;
+    justify-content: space-evenly;
+    border: 3px solid;
+    background-image:
+            linear-gradient(to bottom, rgba(246, 246, 246, 0.45), rgba(255, 255, 255, 0.42)),
+            url('../../assets/svg/binary-background.svg');
 }
 
 .text-centre-home h1{
     width: 700px;
     height: 24px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
-    line-height: 60px;
+    line-height: 70px;
     letter-spacing: 0em;
-    margin-bottom: 100px;
     text-align: left;
+    margin-left: 70px;
+    margin-top: 190px;
+    /*font-family: "Mochiy Pop P One", sans-serif;*/
+}
+
+.name-box{
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 65px;
+    line-height: 60px;
+    color: rgba(58, 58, 62, 0.82);
+    text-shadow: 1px 1px 2px #070707;
+}
+
+.flunctuating-text{
+    font-family: "Combo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 80px;
 }
 
 .text-centre-home p{
     width: 650px;
     height: 14px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(19, 19, 19, 0.55);
-    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.55);
+    margin-top: 170px;
 }
 
 .Eniola-frame{
-    width: 430px;
+    background-image:
+            linear-gradient(to bottom, rgba(142, 140, 140, 0.45), rgba(79, 79, 79, 0.42)),
+            url('../../assets/svg/binary-background.svg');
+    width: 40%;
     align-content: center;
-    margin: auto;
+
 }
 
 .Eniola-frame img{
-    height: 380px;
-    width: 350px;
-    margin-top: 50px;
+    height: 580px;
+    width: 520px;
+    margin-top: 15px;
+    margin-left: 10px;
     border-radius: 50%;
 }

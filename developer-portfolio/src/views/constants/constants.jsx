@@ -1,35 +1,39 @@
-import {
-    frontend,
-    backend,
-    ux,
-    prototyping,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    git,
-    figma,
-    docker,
-    postgresql,
-    rubyrails,
-    graphql,
-    komikult,
-    leaderboard,
-    math,
-    movie,
-    nyeusi,
-    space,
-    coverhunt,
-    dcc,
-    kelhel,
-    microverse,
-} from '../assets';
 
-export const navLinks = [
+import frontend from '../../assets/svg/frontend.svg';
+import backend from '../../assets/svg/backend.svg';
+
+// import {
+//     frontend,
+//     backend,
+//     ux,
+//     prototyping,
+//     javascript,
+//     typescript,
+//     html,
+//     css,
+//     reactjs,
+//     redux,
+//     tailwind,
+//     nodejs,
+//     git,
+//     figma,
+//     docker,
+//     postgresql,
+//     rubyrails,
+//     graphql,
+//     komikult,
+//     leaderboard,
+//     math,
+//     movie,
+//     nyeusi,
+//     space,
+//     coverhunt,
+//     dcc,
+//     kelhel,
+//     microverse,
+// } from '../../assets/svg/frontend.svg';
+
+const navLinks = [
     {
         id: 'about',
         title: 'About',
@@ -44,16 +48,16 @@ export const navLinks = [
     },
 ];
 
-// const services = [
-//     {
-//         title: 'Frontend Developer',
-//         icon: frontend,
-//     },
-//     {
-//         title: 'Backend Developer',
-//         icon: backend,
-//     },
-// ];
+export const services = [
+    {
+        title: 'Frontend Developer',
+        icon: frontend,
+    },
+    {
+        title: 'Backend Developer',
+        icon: backend,
+    },
+];
 
 // const technologies = [
 //     {
@@ -137,3 +141,4 @@ export const navLinks = [
 //     },
 // ];
 
+export default navLinks;
