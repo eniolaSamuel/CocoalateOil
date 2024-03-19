@@ -7,7 +7,7 @@ import "../../styles/components/Navbar.css"
 const Navbar = () => {
 
     let links = [
-        { name: "ABOUT", link: "/" },
+        { name: "ABOUT", link: "/about" },
         { name: "PROJECT", link: "/" },
         { name: "CONTACTS", link: "/" },
     ];
