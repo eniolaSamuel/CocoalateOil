@@ -59,6 +59,7 @@ const navLinks = [
 //     },
 // ];
 
+
 // const technologies = [
 //     {
 //         name: 'HTML 5',

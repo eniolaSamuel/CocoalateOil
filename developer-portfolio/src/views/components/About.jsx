@@ -7,6 +7,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import  SectionWrapper  from '../../hoc/SectionWrapper';
 import "../../styles/components/About.css";
 
+
 const ServiceCard = ({ index, title, icon }) => {
     return (
         <motion.div
@@ -60,7 +61,6 @@ const About = () => {
                     <div className="backend-card" > <img src={backend} alt={backend}/></div>
                     <br/><h1>BACKEND DEVELOPER</h1>
                 </div>
-
             </div>
         </div>
     );

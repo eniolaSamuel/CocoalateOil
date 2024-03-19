@@ -18,7 +18,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/techSkills" element={<Technologies />} />
             <Route path="/arview" element={<ARView />} />
-
           </Routes>
         </BrowserRouter>
       </>
