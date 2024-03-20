@@ -1,19 +1,21 @@
 const Directions= ()=>{
     return(
         <div className="directions-main-frame">
+            <h1>DIRECTIONS</h1>
             <p>
                 Preparation:
-
                 Before using the hair growth oil, ensure that your hair and scalp are clean and free from any styling products or buildup. You can wash your hair with a gentle shampoo and towel dry it lightly.
-                Application:
+                <hr/>
 
+                Application:
                 Shake the bottle of hair growth oil well to ensure all ingredients are evenly mixed.
                 Using the dropper provided or your fingertips, apply a small amount of oil directly onto your scalp.
                 Part your hair into sections to ensure even distribution of the oil.
                 Gently massage the oil into your scalp using circular motions for 5-10 minutes to promote blood circulation and stimulate hair follicles.
                 If desired, apply a small amount of oil to the lengths and ends of your hair for added nourishment and shine.
-                Leave-In Treatment:
+                <hr/>
 
+                Leave-In Treatment:
                 After massaging the oil into your scalp and hair, leave it in overnight for maximum absorption and benefits.
                 For a more intensive treatment, cover your hair with a shower cap or wrap it in a warm towel to help the oil penetrate deeply into the hair shaft.
                 Washing Out:
