@@ -1,0 +1,28 @@
+.directions-main-frame{
+    width: 90%;
+    border: 3px solid #e3dad6;
+    border-radius: 20px;
+    background-color: #DCE5BE;
+    padding:70px;
+}
+
+.directions-main-frame h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #655033;
+}
+
+.directions-main-frame p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    text-align: left;
+    color: #111014;
+}
+
+.directions-main-frame hr{
+    height: 5px;
+    background-color: #2a2217;
+}
